@@ -146,8 +146,9 @@ map <leader>c <action>(CommentByLineComment)
 map <leader>j <Plug>(easymotion-s)
 
 " Open NERDTree (use q to exit)
-map <leader>x :NERDTreeToggle<CR>
-nnoremap <leader>n :NERDTreeFocus<CR>
+map <leader>nt :NERDTreeToggle<CR>
+nnoremap <leader>nf :NERDTreeFocus<CR>
+nnoremap <leader>ns :NERDTreeFind<CR>
 
 " Folding
 map <leader>zc :action CollapseRegion<CR>
