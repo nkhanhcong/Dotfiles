@@ -128,9 +128,6 @@ nnoremap ]] <Action>(MethodDown)
 vnoremap < <gv
 vnoremap > >gv
 
-" Execute macro saved in 'q' register
-nnoremap qj @q
-
 " Popup navigation
 "inoremap <C-j> <Action>(PopupMenu-selectNext)
 "inoremap <C-k> <Action>(PopupMenu-selectPrev)
